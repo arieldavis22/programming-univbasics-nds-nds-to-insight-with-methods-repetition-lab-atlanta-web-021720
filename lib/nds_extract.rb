@@ -50,6 +50,7 @@ total = 0
 list_d = 0
 while list_d < list_of_directors(source).length do
   total += directors_totals(source)[list_of_directors(source)[list_d]]
+  list_d += 1
 end
 total
 end
