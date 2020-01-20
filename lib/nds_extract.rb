@@ -50,5 +50,7 @@ def total_gross(source)
   director = 0
   while director < source.length do
     total += gross_for_director(list_of_directors(directors_database))
+    director += 1
   end
+  total
 end
